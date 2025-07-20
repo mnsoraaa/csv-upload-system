@@ -11,12 +11,13 @@
 
 ### Setup
 1. Run `composer install`.
-2. Rename `.env.example` to `.env`, and generate app key.
+2. Run `cp .env.example .env`.
+3. Run `php artisan key:generate`.
+4. Run `npm install && npm run build`.
 3. Run `sail up -d`*.
 4. Run `sa queue:work`** at 1 terminal.
 5. Run `sa reerb:start`** at another terminal.
 6. Simulate user upload files.
 
-*Note: `sail` is alias of `./vendor/bin/sail`.
-
-**Note:: `sa` is alias of `./vendor/bin/sail artisan`.
+*Note: `sail` is alias of `./vendor/bin/sail`. <br>
+**Note: `sa` is alias of `./vendor/bin/sail artisan`.
