@@ -15,7 +15,7 @@
 3. Run `php artisan key:generate`.
 4. Run `npm install && npm run build`.
 3. Run `sail up -d`*.
-4. Run `sa queue:work`** at 1 terminal.
+4. Run `sa queue:work`** at a terminal.
 5. Run `sa reerb:start`** at another terminal.
 6. Simulate user upload files.
 
